@@ -58,7 +58,8 @@ function App() {
         setStartSet(!startSet);
     }
     const onSetSet = () => {
-        setStartSet(!startSet);
+        setStartSet(!startSet)
+        setMessage(`enter values and press 'SET'`);
     }
 
     const resetCounter = () => {
