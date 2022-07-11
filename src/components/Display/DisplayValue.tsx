@@ -12,6 +12,7 @@ type DisplayPropsType = {
 }
 
 export const DisplayValue = (props: DisplayPropsType) => {
+
     let maxValue = props.maxValue;
     let startValue = props.startValue;
     const onChangeMaxValueHandler = (e: React.ChangeEvent<HTMLInputElement>) => {
